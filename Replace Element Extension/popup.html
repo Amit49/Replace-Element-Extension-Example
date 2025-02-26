@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wootz Element Replacer</title>
+    <style>
+        button {
+            padding: 15px 25px;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        .input-container {
+            margin: 20px;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        #selectorInput {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            font-size: 16px; /* Prevents zoom on mobile */
+        }
+        @media (max-width: 480px) {
+            .input-container {
+                margin: 10px;
+            }
+            button {
+                width: 100%;
+                padding: 12px 20px;
+                font-size: 16px;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Wootz Element Replacer</h1>
+    <div class="input-container">
+        <input type="text" id="selectorInput" placeholder="Enter element selector">
+        <button id="customReplaceButton">Replace Custom Element</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
