@@ -12,7 +12,7 @@ imageData = {
     {
       "element": "img",
       "attributes": {
-        "src": "https://st.depositphotos.com/2274151/4841/i/950/depositphotos_48410113-stock-photo-sample-red-square-grungy-stamp.jpg",
+        "src": "https://www.wootzapp.com/image/logo2.png",
         "alt": "Description",
         "width": "300",
         "height": "200",
